@@ -1,0 +1,44 @@
+@media only screen and (min-width: 769px){
+
+/* ----------Header----------------- */
+#header {
+    width: 20%;
+    height: 100vh;
+    background-color: #0d1303;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* ----------Header > ----------------- */
+  #header *:not(.circle-img) {
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .AvatarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-img {
+    border-radius: 50%;
+    border: 10px solid #212431;
+    width: 150px;
+    height: 150px;
+  }
+  .social i {
+    background: #212431;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  /* ---------------SECTION-------------------------------- */
+  #section {
+    margin-left: 20%;
+  }  
+  .ham-menu{
+  display: none;
+  }
+}
